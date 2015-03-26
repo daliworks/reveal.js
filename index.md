@@ -22,8 +22,8 @@
 
 - Sensor driver in javascript.  
 - Sensor application in javascript. 
-  - Sensor app: <span class="fragment"><em>sensor.js</em></span>
-  - Web app: <span class="fragment"><em>express.js</em></span>
+  - Sensor app: <span class="fragment highlight-green"><em>sensor.js</em></span>
+  - Web app: <span class="fragment highlight-green"><em>express.js</em></span>
 - Works on linux boards such as BeagleBone Black or Raspberry Pi.
 - Supported sensor list is [here](https://github.com/daliworks/sensorjs/blob/master/lib/sensor/README.md) 
 

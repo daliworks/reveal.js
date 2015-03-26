@@ -40,6 +40,38 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
+        <section tagcloud>
+          commonJs
+          socket.io
+          Web Socket
+          node.js
+          MEAN stack
+          Arduino
+          Raspberry Pi
+          Beaglebone Black
+          Express.js
+          gpio
+          i2c
+          ble
+          Angular.js
+          MVW
+          Single page application
+          async
+          lodash
+          promise
+          Twitter Bootstrap
+          jQuery
+          less
+          GruntJS
+          JSHint
+          Linux
+          Debian
+          bower
+          npm
+          RequireJS
+          V8
+          1-wire
+        </section> 
         <!-- Slides are separated by newline + three dashes + newline, vertical slides identical but two dashes -->
         <section data-markdown="index.md" data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
         </section>
@@ -68,6 +100,7 @@
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
           { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/tagcloud/tagcloud.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
